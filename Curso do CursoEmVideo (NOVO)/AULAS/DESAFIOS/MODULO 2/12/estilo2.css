@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    pre{
+       font-family: Sriracha;
+       margin: 10px; 
+    }
+    header{
+        background-image: linear-gradient(to bottom, black,black);
+        min-height: 100px;
+        text-align: center;
+        padding: 20px;
+    }
+    header > h1{
+        color: white;
+        font-family: 'Passion one';
+        font-size: 3em;
+    }
+    header > p{
+        font-family: 'arial';
+        font-size: 12px;
+        margin-top: 1px;
+        color: white;
+    }
+    div {
+    background-image: url("imagens/background001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 500px;
+    width: auto;
+    }
+  div > pre{
+    background-color: rgba(0, 0, 0, 0.29);
+    width: 30%;
+    height: 80%;
+    color: white;
+    padding: 50px 0px 50px 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  div.image2{
+    background-image: url("imagens/background002.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 500px;
+    width: auto;
+  }

@@ -1,0 +1,70 @@
+CURSO EM VIDEO --- HTML5 ---
+
+
+
+1- ESTRUTURA: 	<!DOCTYPE html>
+		  	<html lang="pt-br">
+		  	<head>
+			<meta charset="UTF-8">
+			</head>
+			<body>
+			</body>
+			</html> 
+
+
+2- TAGS: Usar: < (nometag) >    [abre a tag]
+		   </ (nometag) >	  [fecha a tag]
+
+
+3- TAGS BASICAS:   <title> = colocar o titulo da aba;   <hgroup> = conjunto de titulos;   <h1> = titulo principal;   <h2> = subtitulo;   <img src> = inserir imagem EX:<img src="(localizaçao do arquivo + extenção)"/>;
+
+<header> = adicionar cabeçalho;   <nav> = menu de navegaçao;   <li> = cria uma lista ;   <ol type="(A,I,1)"> = lista ordenada;   <ul type="(square,circle,disc)"> = lista não ordenada;
+
+
+4- PARAGRAFOS, QUEBRAS DE LINHAS E FORMATAÇÃO:   <br> = quebra de linha;   <p> = paragrafo;   <wbr/> = quebra de palavra;   <b> = palavra em negrito;   <i> ou <em> = palavra em italico; 
+
+<u> = sublinha a palavra;   <s> ou <del> = riscar a palavra;   <pre> formatado do jeito que programei;   <figcaption> = legenda na imagem;   <a href="(link)" target="_blank"> (nome do link) </a> = adicionar um link;
+
+
+5- CSS :
+			<style>
+			 body{
+			 	background-image: url("localizaçao do arquivo + extensao"); = plano de fundo é uma imagem
+				background-color: (nome da cor em ingles,#0000,etc); = plano de fundo da pagina
+				color: (green,pink,blue,etc); = texto muda pra cor selecionada
+			     }
+
+			   p { 
+				text-align: (left,center,right,justify) = alinhar o texto;
+				font-size: (em pt) = tamanho da fonte do texto
+			 	text-indent: (tamanho em px); margin (cima,direita,baixo,esquerda em px) = margem do texto;
+				box-shadow: (horizontal,vertical,espalhamento,cor,[em px]) = adicionar uma sombra
+				width: (tamanho em %) = largura
+				height: (tamanho em %) = altura
+				padding: (tamanho em px) = espaço dentro
+				opacity: (tamanho em px) = define a opacidade
+				transition: ([efeito] {em  segundos}) = define qual e quanto tempo dura a transiçao
+				hover = quando passa o mouse acontece algo. EX: nav#menu li:hover {
+	 												background-color: #606060;
+			     											    }
+				}
+			</style>
+
+
+6- REFERENCIA: Usar: <(tag) class="(nome qualquer)"> = para adicionar uma referencia
+
+
+7- TABELAS: usar <table> = para criar a seçao tabela;  <caption> = titulo da tabela;   <tr> = adiciona linha; <td> = separa dados da mesma linha em colunas;     <td roswpan="(n° de linhas ocupadas)">(nome) = para adicionar mais linhas ao nome;   <td colspan="(n° de colunas ocupadas)">(nome) = para o nome receber mais colunas;
+
+
+8-  CABEÇALHO: <footer> = rodape;   <section> = corpo;   <aside> = lateral;
+
+
+9- JAVA SCRIPT:   <script>
+				alert("[mensagem]"); = recebe um alerta no navegador
+				document.write("[mensagem]") = para a mensagem aparecer no documento
+				function (nome) () {} = ()parametros {}códigos
+				onclick="(nomedafunction)"/> = clicar no obj aparece a funcao
+				onmousemove="(nomedafunciton)"/> = passar o mouse no obj aparece a funcao
+				Onmouseout='(nomedafunction)"/> = tirar o mouse do obj a funcao acontece
+			</script>  

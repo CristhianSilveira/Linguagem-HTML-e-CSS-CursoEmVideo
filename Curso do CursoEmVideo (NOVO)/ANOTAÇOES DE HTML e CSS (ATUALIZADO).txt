@@ -1,0 +1,130 @@
+CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
+
+
+1- DIFERENÇA ENTRE HTML,CSS E JAVASCRIPT:
+	HTML: foca no conteudo (texto,imagens,videos,tabelas)
+	CSS: design (cores,sombras,tamanhos,posicionamento)
+	JavaScript: Interações (menus,animações,popups,validações)
+
+
+2- O QUE É FRONT-END, BACK-END E FULL STACK:
+	Front-End: Focado no usuario (visual). Linguagens: HTML,CSS,JavaScript.
+	Back-End: Focado no servidor (codigo). Linguagens: php,JavaScript,C++,Python,Java,Ruby.
+	Full Stack: Front-End e Back-End juntos.
+
+
+3- ESTRUTURA DO HTML:
+	<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport"
+			content="width=device-width,initial-scale=1.0">
+			<title>Document</title>
+		</head>
+		<body>
+			<h1>Olá, Mundo!</h1>
+		</body>
+	</html>
+
+
+
+4- PARÁGRAFOS E QUEBRAS DE LINHAS: 
+	Usar <p> para criar um paragrafo;  <br> para pular uma linha.
+	Usar o PDF para colocar emoji e simbolos. OBS: usar: &#x(numero na pagina) para adicionar um emoji.
+
+
+5- IMAGENS: OBS: Usar o site "pexels" para não ter direito autoral.
+   5.1- Formatos de imagens:
+		PNG: Transparencia, qualidade melhor.
+		JPEG: Compactado.
+   5.2- Tamanho das imagens:	1500x1000 é o tamanho ideal(quanto menor o tamanho, menor o tamanho do arquivo).
+   5.3- Colocar imagem no HTML: Digitar "img" e dar enter, nas aspas do src apertar (Ctrl+espaço) e selecionar a foto, nas aspas do alt digitar o nome da sua foto na pagina.
+	  	EX: <img src="logo-html.png" alt="Logo HTML5">
+   5.4- FavIcon: icone no navegador.
+<link rel="shortcut icon" href="(local do arquivo)" type="image/x-icon">
+
+
+6- TITULOS: <h1> titulo principal, <h2> subtitulo, <h3 até h6> subtitulos dos subtitulos.
+
+
+7- PRINCIPAIS FORMATAÇÕES:   <mark>= destacar um texto;   <small>= texto pequeno;   <del>= texto riscado;   <ins>= texto sublinhado;   <sup>= texto sobrescrito;   <sub>= texto subscrito;   <q>= citação simples;   <blockquote>= citação completa;   <abbr title="(texto completo)>= abreviaçao das palavras;   <bdo dir="rtl">= Texto invertido;   <b> e <strong>= usar negrito;   <i> e <em>= usar italico; (OBS: optar por <strong> e <em>)
+
+
+8- LISTAS: <ol type="(A,a,I,i,1)">= lista ordenada;   <li>= itens da lista;   <ul type="(disc,circle,square)">= lista não ordenada;   <dl>= lista de definição;   <dt>= termo da definiçao;   <dd>= descrição do termo; 	OBS( dl,dt e dd sao usadas JUNTAS)
+
+
+9- LINKS: <a href="(url do link)" target="_blank">= adicionar um link em outra janela;
+	    <a href="(url do link)" target="_self">= adicionar um link na mesma janela;
+	    <a href="(nome do arquivo)" download="(nome do arquivo)" type="(tipo do arquivo)">= gera um download quando clickado;
+
+
+10- IMAGENS DINÂMICAS,ÁUDIOS E VIDEOS:
+    10.1- Imagem dinâmica:  <picture>
+        					<source media="(max-width: [tamanho em px da menor])" srcset="(nome da imagem pequena)" type="image/png">
+       					<source media="(max-width: [tamanho em px da media])" srcset="(nome da imagem media)" type="image/png">
+        					<img src="(local da imagem grande)" alt="Imagem flexível">
+                            </picture>
+    10.2- Áudios: <audio preload="metadata" autoplay controls loop>
+        			<source src="(local do arquivo)" type="audio/mpeg">
+			</audio>
+    10.3- Vídeos: <video width="(tamanho no site)" poster="(local da tumb do video)" controls autoplay loop>
+				<source src="(local do video)" type="video/mp4">
+			</video>
+
+
+11- ESTILOS:
+	11.1- Estilos Inline: é a CSS junto com o código HTML, causando poluição do código, é menos recomendado a fazer esse tipo, so se o projeto for bem pequeno.
+	11.2- Estilos Internos: é mais recomendado que o Inlline, deixa o código organizado, porém recomendado para 1 página, se for varias usar o ESTILO EXTERNO.			
+			EX: <style>
+        			body {
+            			background-color: lightsteelblue;
+            			font-family: Arial, Helvetica, sans-serif;
+            			font-size: 20px;
+        			}
+			    </style>
+	11.3- Estilos Externos: É o mais usado quando possuí várias páginas, podendo configurar cada página separadamente usando o link para o arquivo CSS.
+			1) usar <link rel="stylesheet" href="(local do arquivo CSS)">
+			2) criar o arquivo CSS e montar o código.
+
+
+12- CORES:
+	12.1- Representação por nomes: white,blue,yellow,red,etc.
+	12.2- Representação por Hexadecimal: # + 6 digitos (de 0 até F) EX: #0000ff = azul
+	12.3- Representação em RGB (Red,Green,Blue): RGB(de 0 até 255) Ex: rgb(0,0,255) = azul
+	12.4- Representação em HSL(matriz,saturação,luminosidade): EX: hsl(240,100%,50%) = azul
+	12.5- Adicionando degrade: background-image: linear-gradient/ radial-gradient(direçao,cor1,cor2,cor3..) EX: background-image: linear-gradient(to bottom,white,blue);
+
+
+13- FONTES: 
+	13.1- Famílias: Usar font-family: (fonte1,fonte2,fonte3) EX: font-family: Arial,verdana,Helvetica,sans-serif;
+	13.2- Tamanhos: Usar font-size: (tamanho em px ou em) EX: font-size: 16px; (OBS: 16px= 1em, 32px= 2em, 48px= 3em, 64px= 4em)
+	13.3- Peso(negrito): Usar font-weight: (lighter,bold,bolder,normal ou de 100 a 900) EX: font-weight: bolder;
+	13.4- Estilo: Usar font-style: (italic,oblique,normal) EX: font-style: italic;
+	13.5- BIZU DAS FONTES: Usar font: (style,variant,weight,size,family) EX: font: italic, bolder, 2em, Arial;
+	13.6- Alinhamento: Usar text-align: (right,center,left,justify,) EX: text-align: justify; = alinhamento a esquerda e  direita simultaneamente.
+	13.7- Margem do texto: Usar text-indent: (tamanho em px) EX: text-indent: 30px; = inicio do texto começa depois de  30 pixels.
+	13.8- Sombra no texto: Usar text-shadow(deslocamento horizontal, deslocamento vertical[pode ser negativo e positivo], embaçamento [em px], cor) EX: text-shadow: 2px 2px 0px black;
+
+
+14- SELETORES:
+	14.1- Id: no arquivo HTML usar = e no CSS usar # EX: <h1 id="principal">Site</h1> (no arquivo html) e h1#principal (no arquivo CSS).
+	14.2- Class: no arquivo HTML usar = e no CSS usar . EX: <h2 class="topico">Estilo</h2> (no arquivo HTML) e .topico (no arquivo CSS)
+	14.3- Diferença entre Id e Class: no Id so podemos usar a propriedade para 1 elemento, para o class podemos usar para varios elementos.
+	14.4- Pseudo-Classe: Usar  :(hover[quando passar o mouse acontece algo],visited[estilo ao link visitado],active[quando clickado acontece algo],checked,empty[aplica algo em elementos vazios],focus[da um foco]) EX: div:hover; EX2: h1:hover
+	14.5- Pseudo-element: Usar ::(before[insere algo antes do elemento],after[insere algo depois do elemento],first-letter[seleciona a 1 letra do elemento],first-line[seleciona a 1 linha do elemento) EX: .especial::before; EX2: div::after;
+
+
+15- CAIXAS:
+	15.1- largura: Usar width(em px)
+	15.2- Altura: Usar height(em px)
+	15.3- Margem: Usar margin (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}, auto) EX: margin: 10px 20px 30px 40px; EX2: margin:auto= centralizar o elemento
+	15.4- Preenchimento interno: Usar padding: (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}) EX: padding: 10px 20px 30px 40px;
+	15.5- Bordas: Usar border: (width[largura], style[estilo], color[cor]) EX: border: 10px solid red;
+	15.6- Contorno da borda: Usar outline: (width[largura], style[estilo], color[cor] EX: outline: 30px solid blue;
+	15.7- Grouping Tags: <header>= area relativa ao cabeçalho, <nav>= area que possui links de navegação, <main>= agrupa o conteudo principal, <section>= cria seções na pagina, <article>= contem um conteudo que pode ser lido, <aside>= delimita um conteudo, <footer>= cria um rodapé no site.
+	15.8- Sombra: Usar box-shadow(deslocamento horizontal, deslocamento vertical[pode ser negativo e positivo], embaçamento [em px], cor) EX: box-shadow: 3px 5px 4px black;
+	15.9- Vertice Arredondado: Usar border-radius: (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}) EX: border-radius 10px 20px 30px 40px;
+
+
+16- 
