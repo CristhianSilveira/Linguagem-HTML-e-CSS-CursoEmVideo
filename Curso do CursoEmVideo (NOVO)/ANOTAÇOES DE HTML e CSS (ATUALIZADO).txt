@@ -101,7 +101,7 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 	13.2- Tamanhos: Usar font-size: (tamanho em px ou em) EX: font-size: 16px; (OBS: 16px= 1em, 32px= 2em, 48px= 3em, 64px= 4em)
 	13.3- Peso(negrito): Usar font-weight: (lighter,bold,bolder,normal ou de 100 a 900) EX: font-weight: bolder;
 	13.4- Estilo: Usar font-style: (italic,oblique,normal) EX: font-style: italic;
-	13.5- BIZU DAS FONTES: Usar font: (style,variant,weight,size,family) EX: font: italic, bolder, 2em, Arial;
+	13.5- Shorthand (Ordem das fontes): Usar font: (style,variant,weight,size,family) EX: font: italic, bolder, 2em, Arial;
 	13.6- Alinhamento: Usar text-align: (right,center,left,justify,) EX: text-align: justify; = alinhamento a esquerda e  direita simultaneamente.
 	13.7- Margem do texto: Usar text-indent: (tamanho em px) EX: text-indent: 30px; = inicio do texto começa depois de  30 pixels.
 	13.8- Sombra no texto: Usar text-shadow(deslocamento horizontal, deslocamento vertical[pode ser negativo e positivo], embaçamento [em px], cor) EX: text-shadow: 2px 2px 0px black;
@@ -127,4 +127,13 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 	15.9- Vertice Arredondado: Usar border-radius: (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}) EX: border-radius 10px 20px 30px 40px;
 
 
-16- 
+16- IMAGENS DE FUNDO:
+	16.1- Usar background-image: url(local das imagens) EX: background-image: url(imagens-cap19/pattern001.png);
+	16.2- Repetição de imagem: Usar background-repeat: (repeat, no-repeat,repeat-x,repeat-y) EX: background-repeate: no-repeat;
+	16.3- Posição da imagem: Usar background-position: [coluna, linha] (center center, right bottom, left center,etc) EX: background-position: left bottom;
+	16.4- Redimensionar imagem: Usar background-size: (auto,contain,cover,px,%)
+	16.5- Vinculo da imagem: Usar background-attachment: (scroll[imagem rola com o conteudo],fixed[imagem fica fixa] EX: background-attachment: scroll;
+	16.6- Shorthand (Ordem do background): Usar background:(color,image,position/size, repeat,attachment) EX: background: black url(imagem.jpg) center top/cover no-repeat fixed;
+
+
+.
