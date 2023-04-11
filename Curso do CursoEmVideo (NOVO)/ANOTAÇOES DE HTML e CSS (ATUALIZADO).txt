@@ -136,4 +136,9 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 	16.6- Shorthand (Ordem do background): Usar background:(color,image,position/size, repeat,attachment) EX: background: black url(imagem.jpg) center top/cover no-repeat fixed;
 
 
-.
+17- TABELAS:
+	17.1- Hierarquia de tabelas (simples): table= tabela, tr(table row)= linha da tabela, th(table header)= cabeçalho da tabela, td(table data)= dados da tabela.
+	17.2- Design da tabela: Usar as propriedades de CSS.
+		17.2.1- Cria bordar: Usar border no td EX: border 1px solid black;
+		17.2.2- Alinhamento dos textos: Usar text-align no td.
+		17.2.3- Agrupar as colunas: Usar border-collapse em table EX: border-collapse: collapse;
