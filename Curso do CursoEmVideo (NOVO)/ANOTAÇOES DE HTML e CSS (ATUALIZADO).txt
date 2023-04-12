@@ -142,3 +142,25 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 		17.2.1- Cria bordar: Usar border no td EX: border 1px solid black;
 		17.2.2- Alinhamento dos textos: Usar text-align no td.
 		17.2.3- Agrupar as colunas: Usar border-collapse em table EX: border-collapse: collapse;
+	17.3- Hierarquia de tabelas grandes: table= tabela, thead= cabeçalho da tabela, tbody= corpo da tabela, tfoot= rotape da tabela, tr(table row)= linha da tabela, th(table header)= cabeçalho da tabela, td(table data)= dados da tabela.
+	Ex: <table>
+        	<thead>
+            	<tr>
+                	<th>Estado</th>
+                	<th>População</th>
+            	</tr>
+        	</thead>
+        	<tbody>
+            	<tr>
+                	<td>São Paulo</td>
+                	<td>45 919 049</td>
+            	</tr>
+			</tbody>
+       		<tfoot>
+            	<tr>
+                	<th>Total de Habitantes</th>
+                	<td>210.147.125</td>
+            	</tr>
+        	</tfoot>
+    	</table>
+	17.4- 
