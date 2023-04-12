@@ -2,14 +2,14 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 
 
 1- DIFERENÇA ENTRE HTML,CSS E JAVASCRIPT:
-	HTML: foca no conteudo (texto,imagens,videos,tabelas)
+	HTML: foca no conteúdo (texto,imagens,videos,tabelas)
 	CSS: design (cores,sombras,tamanhos,posicionamento)
 	JavaScript: Interações (menus,animações,popups,validações)
 
 
 2- O QUE É FRONT-END, BACK-END E FULL STACK:
-	Front-End: Focado no usuario (visual). Linguagens: HTML,CSS,JavaScript.
-	Back-End: Focado no servidor (codigo). Linguagens: php,JavaScript,C++,Python,Java,Ruby.
+	Front-End: Focado no usuário (visual). Linguagens: HTML,CSS,JavaScript.
+	Back-End: Focado no servidor (código). Linguagens: php,JavaScript,C++,Python,Java,Ruby.
 	Full Stack: Front-End e Back-End juntos.
 
 
@@ -31,32 +31,32 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 
 4- PARÁGRAFOS E QUEBRAS DE LINHAS: 
 	Usar <p> para criar um paragrafo;  <br> para pular uma linha.
-	Usar o PDF para colocar emoji e simbolos. OBS: usar: &#x(numero na pagina) para adicionar um emoji.
+	Usar o PDF para colocar emoji e símbolos. OBS: usar: &#x(numero na pagina) para adicionar um emoji.
 
 
 5- IMAGENS: OBS: Usar o site "pexels" para não ter direito autoral.
    5.1- Formatos de imagens:
-		PNG: Transparencia, qualidade melhor.
+		PNG: Transparência, qualidade melhor.
 		JPEG: Compactado.
    5.2- Tamanho das imagens:	1500x1000 é o tamanho ideal(quanto menor o tamanho, menor o tamanho do arquivo).
    5.3- Colocar imagem no HTML: Digitar "img" e dar enter, nas aspas do src apertar (Ctrl+espaço) e selecionar a foto, nas aspas do alt digitar o nome da sua foto na pagina.
 	  	EX: <img src="logo-html.png" alt="Logo HTML5">
-   5.4- FavIcon: icone no navegador.
+   5.4- FavIcon: ícone no navegador.
 <link rel="shortcut icon" href="(local do arquivo)" type="image/x-icon">
 
 
-6- TITULOS: <h1> titulo principal, <h2> subtitulo, <h3 até h6> subtitulos dos subtitulos.
+6- TÍTULOS: <h1> titulo principal, <h2> subtitulo, <h3 até h6> subtítulos dos subtítulos.
 
 
-7- PRINCIPAIS FORMATAÇÕES:   <mark>= destacar um texto;   <small>= texto pequeno;   <del>= texto riscado;   <ins>= texto sublinhado;   <sup>= texto sobrescrito;   <sub>= texto subscrito;   <q>= citação simples;   <blockquote>= citação completa;   <abbr title="(texto completo)>= abreviaçao das palavras;   <bdo dir="rtl">= Texto invertido;   <b> e <strong>= usar negrito;   <i> e <em>= usar italico; (OBS: optar por <strong> e <em>)
+7- PRINCIPAIS FORMATAÇÕES:   <mark>= destacar um texto;   <small>= texto pequeno;   <del>= texto riscado;   <ins>= texto sublinhado;   <sup>= texto sobrescrito;   <sub>= texto subscrito;   <q>= citação simples;   <blockquote>= citação completa;   <abbr title="(texto completo)>= abreviação das palavras;   <bdo dir="rtl">= Texto invertido;   <b> e <strong>= usar negrito;   <i> e <em>= usar itálico; (OBS: optar por <strong> e <em>)
 
 
-8- LISTAS: <ol type="(A,a,I,i,1)">= lista ordenada;   <li>= itens da lista;   <ul type="(disc,circle,square)">= lista não ordenada;   <dl>= lista de definição;   <dt>= termo da definiçao;   <dd>= descrição do termo; 	OBS( dl,dt e dd sao usadas JUNTAS)
+8- LISTAS: <ol type="(A,a,I,i,1)">= lista ordenada;   <li>= itens da lista;   <ul type="(disc,circle,square)">= lista não ordenada;   <dl>= lista de definição;   <dt>= termo da definição;   <dd>= descrição do termo; 	OBS( dl,dt e dd sao usadas JUNTAS)
 
 
 9- LINKS: <a href="(url do link)" target="_blank">= adicionar um link em outra janela;
 	    <a href="(url do link)" target="_self">= adicionar um link na mesma janela;
-	    <a href="(nome do arquivo)" download="(nome do arquivo)" type="(tipo do arquivo)">= gera um download quando clickado;
+	    <a href="(nome do arquivo)" download="(nome do arquivo)" type="(tipo do arquivo)">= gera um download quando clicado;
 
 
 10- IMAGENS DINÂMICAS,ÁUDIOS E VIDEOS:
@@ -90,10 +90,10 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 
 12- CORES:
 	12.1- Representação por nomes: white,blue,yellow,red,etc.
-	12.2- Representação por Hexadecimal: # + 6 digitos (de 0 até F) EX: #0000ff = azul
+	12.2- Representação por Hexadecimal: # + 6 dígitos (de 0 até F) EX: #0000ff = azul
 	12.3- Representação em RGB (Red,Green,Blue): RGB(de 0 até 255) Ex: rgb(0,0,255) = azul
 	12.4- Representação em HSL(matriz,saturação,luminosidade): EX: hsl(240,100%,50%) = azul
-	12.5- Adicionando degrade: background-image: linear-gradient/ radial-gradient(direçao,cor1,cor2,cor3..) EX: background-image: linear-gradient(to bottom,white,blue);
+	12.5- Adicionando degrade: background-image: linear-gradient/ radial-gradient(direção,cor1,cor2,cor3..) EX: background-image: linear-gradient(to bottom,white,blue);
 
 
 13- FONTES: 
@@ -110,8 +110,8 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 14- SELETORES:
 	14.1- Id: no arquivo HTML usar = e no CSS usar # EX: <h1 id="principal">Site</h1> (no arquivo html) e h1#principal (no arquivo CSS).
 	14.2- Class: no arquivo HTML usar = e no CSS usar . EX: <h2 class="topico">Estilo</h2> (no arquivo HTML) e .topico (no arquivo CSS)
-	14.3- Diferença entre Id e Class: no Id so podemos usar a propriedade para 1 elemento, para o class podemos usar para varios elementos.
-	14.4- Pseudo-Classe: Usar  :(hover[quando passar o mouse acontece algo],visited[estilo ao link visitado],active[quando clickado acontece algo],checked,empty[aplica algo em elementos vazios],focus[da um foco]) EX: div:hover; EX2: h1:hover
+	14.3- Diferença entre Id e Class: no Id so podemos usar a propriedade para 1 elemento, para o class podemos usar para vários elementos.
+	14.4- Pseudo-Classe: Usar  :(hover[quando passar o mouse acontece algo],visited[estilo ao link visitado],active[quando clicado acontece algo],checked,empty[aplica algo em elementos vazios],focus[da um foco]) EX: div:hover; EX2: h1:hover
 	14.5- Pseudo-element: Usar ::(before[insere algo antes do elemento],after[insere algo depois do elemento],first-letter[seleciona a 1 letra do elemento],first-line[seleciona a 1 linha do elemento) EX: .especial::before; EX2: div::after;
 
 
@@ -122,9 +122,9 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 	15.4- Preenchimento interno: Usar padding: (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}) EX: padding: 10px 20px 30px 40px;
 	15.5- Bordas: Usar border: (width[largura], style[estilo], color[cor]) EX: border: 10px solid red;
 	15.6- Contorno da borda: Usar outline: (width[largura], style[estilo], color[cor] EX: outline: 30px solid blue;
-	15.7- Grouping Tags: <header>= area relativa ao cabeçalho, <nav>= area que possui links de navegação, <main>= agrupa o conteudo principal, <section>= cria seções na pagina, <article>= contem um conteudo que pode ser lido, <aside>= delimita um conteudo, <footer>= cria um rodapé no site.
+	15.7- Grouping Tags: <header>= area relativa ao cabeçalho, <nav>= area que possui links de navegação, <main>= agrupa o conteúdo principal, <section>= cria seções na pagina, <article>= contem um conteúdo que pode ser lido, <aside>= delimita um conteúdo, <footer>= cria um rodapé no site.
 	15.8- Sombra: Usar box-shadow(deslocamento horizontal, deslocamento vertical[pode ser negativo e positivo], embaçamento [em px], cor) EX: box-shadow: 3px 5px 4px black;
-	15.9- Vertice Arredondado: Usar border-radius: (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}) EX: border-radius 10px 20px 30px 40px;
+	15.9- Vértice Arredondado: Usar border-radius: (top[cima], right[direita], bottom[baixo], left[esquerda] {em px}) EX: border-radius 10px 20px 30px 40px;
 
 
 16- IMAGENS DE FUNDO:
@@ -132,7 +132,7 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 	16.2- Repetição de imagem: Usar background-repeat: (repeat, no-repeat,repeat-x,repeat-y) EX: background-repeate: no-repeat;
 	16.3- Posição da imagem: Usar background-position: [coluna, linha] (center center, right bottom, left center,etc) EX: background-position: left bottom;
 	16.4- Redimensionar imagem: Usar background-size: (auto,contain,cover,px,%)
-	16.5- Vinculo da imagem: Usar background-attachment: (scroll[imagem rola com o conteudo],fixed[imagem fica fixa] EX: background-attachment: scroll;
+	16.5- Vinculo da imagem: Usar background-attachment: (scroll[imagem rola com o conteúdo],fixed[imagem fica fixa] EX: background-attachment: scroll;
 	16.6- Shorthand (Ordem do background): Usar background:(color,image,position/size, repeat,attachment) EX: background: black url(imagem.jpg) center top/cover no-repeat fixed;
 
 
@@ -142,12 +142,13 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 		17.2.1- Cria bordar: Usar border no td EX: border 1px solid black;
 		17.2.2- Alinhamento dos textos: Usar text-align no td.
 		17.2.3- Agrupar as colunas: Usar border-collapse em table EX: border-collapse: collapse;
-	17.3- Hierarquia de tabelas grandes: table= tabela, thead= cabeçalho da tabela, tbody= corpo da tabela, tfoot= rotape da tabela, tr(table row)= linha da tabela, th(table header)= cabeçalho da tabela, td(table data)= dados da tabela.
+	17.3- Hierarquia de tabelas grandes: table= tabela, caption= legenda  da tabela, thead= cabeçalho da tabela, tbody= corpo da tabela, tfoot= rodapé da tabela, tr(table row)= linha da tabela, th(table header)= cabeçalho da tabela, td(table data)= dados da tabela.
 	Ex: <table>
+		<caption>Populaçao das Unidades Federativas</caption>
         	<thead>
             	<tr>
-                	<th>Estado</th>
-                	<th>População</th>
+                	<th scope="col">Estado</th>
+                	<th scope="col">População</th>
             	</tr>
         	</thead>
         	<tbody>
@@ -155,12 +156,22 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
                 	<td>São Paulo</td>
                 	<td>45 919 049</td>
             	</tr>
-			</tbody>
-       		<tfoot>
+		</tbody>
+		<tfoot>
             	<tr>
-                	<th>Total de Habitantes</th>
+                	<th scope="row">Total de Habitantes</th>
                 	<td>210.147.125</td>
             	</tr>
-        	</tfoot>
+		</tfoot>
     	</table>
-	17.4- 
+	17.4- Mesclagem de Células: Usar: colspan="(número)"= O dado ocupa N colunas. rowspan="(número)"= O dado ocupa N linhas. EX: <td colspan="2">B</td> [ocupa 2 colunas] EX2: <td rowspan="3">D</td> [ocupa 3 linhas].
+	17.5- Escopo de grupo: Usar <th scope="( col[usado sem colspan] / colgroup[usado em colspan] / row[usado sem rowspan] / rowgroup[usado em rowspan] )">(nome da coluna)</th>
+	17.6- Agrupando colunas: Usar [colgroup > col > (nome da coluna)]
+		EX: 	<colgroup>
+				<col class="cNome">
+				<col class="cSexo">
+				<col class="cIdade">
+			</colgroup>
+
+
+.
