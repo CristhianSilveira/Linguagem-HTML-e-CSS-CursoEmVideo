@@ -137,12 +137,12 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 
 
 17- TABELAS:
-	17.1- Hierarquia de tabelas (simples): table= tabela, tr(table row)= linha da tabela, th(table header)= cabeçalho da tabela, td(table data)= dados da tabela.
+	17.1- Hierarquia de tabelas (simples): table= tabela, tr(table row)= linha da tabela, th(table header)= célular de cabeçalho da tabela, td(table data)= dados da tabela.
 	17.2- Design da tabela: Usar as propriedades de CSS.
 		17.2.1- Cria bordar: Usar border no td EX: border 1px solid black;
 		17.2.2- Alinhamento dos textos: Usar text-align no td.
 		17.2.3- Agrupar as colunas: Usar border-collapse em table EX: border-collapse: collapse;
-	17.3- Hierarquia de tabelas grandes: table= tabela, caption= legenda  da tabela, thead= cabeçalho da tabela, tbody= corpo da tabela, tfoot= rodapé da tabela, tr(table row)= linha da tabela, th(table header)= cabeçalho da tabela, td(table data)= dados da tabela.
+	17.3- Hierarquia de tabelas grandes: table= tabela, caption= título  da tabela, thead= cabeçalho da tabela, tbody= corpo da tabela, tfoot= rodapé da tabela, tr(table row)= linha da tabela, th(table header)= célula de cabeçalho da tabela, td(table data)= dados da tabela.
 	Ex: <table>
 		<caption>Populaçao das Unidades Federativas</caption>
         	<thead>
@@ -174,4 +174,5 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 			</colgroup>
 
 
-.
+18- IFRAMES: Uma janela aberta dentro de uma página 
+	18.1- Páginas externas e internas: Usar: <iframe src="(link da outra página)" frameborder="0" scrolling="auto" width="(em px)" height="(em px)"></iframe>
