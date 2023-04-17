@@ -176,3 +176,46 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 
 18- IFRAMES: Uma janela aberta dentro de uma página 
 	18.1- Páginas externas e internas: Usar: <iframe src="(link da outra página)" frameborder="0" scrolling="auto" width="(em px)" height="(em px)"></iframe>
+
+
+19- FORMULARIOS: Usar <form action="([nome].php)" method="post/get(melhor post)" autocomplete="off/on(completar automaticamente)"> OBS: Required= Campo obrigatorio
+
+	19.1- Campo de Nome/Sobrenome: <p><label for="(nome no id)">(nome do campo:)</label><input type="text" name="(nome do campo)" id="(nome do campo)" required minlength="(digitos minimos)" maxlength="(digitos maximos)" size="(tamanho da caixa)" placeholder="(texto cinza de exemplo no campo)" autocomplete="(completar o campo de acordo com outros formularios)"></p> 
+				   	   EX: <p><label for="INome">Nome:</label> <input type="text" name="nome" id="INome" required minlength="5" maxlength="30" size="10" placeholder="Digite seu nome" autocomplete="name"></p>
+
+	19.2- Campo de Usuario: <p><label for="(nome no id)">(nome do campo:)</label><input type="text" name="(nome do campo)" id="(nome do campo)" required minlength="(digitos minimos)" maxlength="(digitos maximos)" size="(tamanho da caixa)" placeholder="(texto cinza de exemplo no campo)" autocomplete="(completar o campo de acordo com outros formularios)"></p> 
+				  EX: <p><label for="IUser">Usuário:</label> <input type="text" name="User" id="IUser" required minlength="5" maxlength="30" size="10" placeholder="Nome do usuário" autocomplete="username"></p>
+
+	19.3- Campo de Senha: <p><label for="(nome no id)">(nome do campo:) </label><input type="password" name="(nome do campo)" id="(nome do campo)" required minlength="(digitos minimos)" maxlength="(digitos maximos)" size="(tamanho da caixa)" placeholder="(texto cinza de exemplo no campo)" autocomplete="(completar o campo de acordo com outros formularios)"></p>
+				EX: <p><label for="ISenha">Senha: </label><input type="password" name="Senha" id="ISenha" required minlength="8" maxlength="20" size="8" placeholder="Mínimo 8 letras" autocomplete="current-password"></p>
+
+	19.4- Campo Número: <p><label for="(nome no id)">(nome do campo:) </label><input type="number" name="(nome do campo)" id="(nome do campo)" required min="(numero min)" max="(numero max)" placeholder="(texto cinza de exemplo no campo)" step="(salto de numero)" value="(valor fixo)"></p>
+			    EX: <p><label for="IMedia">Média</label><input type="number" name="media" id="IMedia" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5"></p>
+	
+	19.5- Campo Data: <p><label for="(nome no id)">(nome do campo:) </label><input type="date" name="(nome do campo)" id="(nome do campo)" value="(valor fixo)"></p>
+			  EX: <p><label for="IData">Dia da Prova: </label><input type="date" name="data" id="IData" value="2023-04-17"></p>
+
+	19.6- Campo Hora: <p><label for="(nome no id)">(nome do campo:) </label><input type="time" name="(nome do campo)" id="(nome do campo)"></p>
+			  EX: <p><label for="IHora">Horário da Prova: </label><input type="time" name="hora" id="IHora"></p>
+
+	19.7- Campo Email: <p><label for="(nome no id)">(nome do campo:) </label><input type="email" name="(nome do campo)" id="(nome do campo)" required autocomplete="(completar o campo de acordo com outros formularios)"></p>
+			   EX: <p><label for="IEmail">E-mail: </label><input type="email" name="email" id="IEmail" required autocomplete="email"></p>
+	
+	19.8- Campo Telefone: <p><label for="(nome no id)">(nome do campo:) </label><input type="tel" name="(nome do campo)" id="(nome do campo)" required autocomplete="(completar o campo de acordo com outros formularios)" placeholder="(texto cinza de exemplo no campo)"></p>
+				EX: <p><label for="ITel">Telefone: </label><input type="tel" name="tel" id="ITel" required autocomplete="tel" placeholder="(xx)xxxx-xxxx"></p>
+
+	19.9- Campo de Enviar: <p><input type="submit" value="(nome do campo)"></p>
+				 EX: <p><input type="submit" value="Enviar"></p>
+
+	19.10- Campo de Limpar: <p><input type="reset" value="(nome do campo)"></p>
+				  EX: <p><input type="reset" value="Limpar"></p>
+
+	19.11- Checkbox (Seleção de varias caixas): <p><input type="checkbox" name="(nome do campo)" id="(nome do campo)"><label for="(nome no id)">(nome do campo)</label> checked(ja deixar a caixa marcada)></p>
+				EX: <p><input type="checkbox" name="Basq" id="IBasq"><label for="IBasq">Basquete</label><br>
+            			 <input type="checkbox" name="Fut" id="IFut"><label for="IFut">Futebol</label></p>
+
+	19.12- Radio (Apenas 1 caixa Marcada): <p><input type="radio" name="(nome do campo)" id="(nome do campo)"><label for="(nome no id)">(nome do campo)</label> checked(ja deixar a caixa marcada)></p>
+				EX: <p><input type="radio" name="sexo" id="IMasc"><label for="IMasc">Masculino</label><br>
+            			 <input type="radio" name="sexo" id="IFem"><label for="IFem">Feminino</label></p>
+
+	19.13- 
