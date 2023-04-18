@@ -204,18 +204,58 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 	19.8- Campo Telefone: <p><label for="(nome no id)">(nome do campo:) </label><input type="tel" name="(nome do campo)" id="(nome do campo)" required autocomplete="(completar o campo de acordo com outros formularios)" placeholder="(texto cinza de exemplo no campo)"></p>
 				EX: <p><label for="ITel">Telefone: </label><input type="tel" name="tel" id="ITel" required autocomplete="tel" placeholder="(xx)xxxx-xxxx"></p>
 
-	19.9- Campo de Enviar: <p><input type="submit" value="(nome do campo)"></p>
-				 EX: <p><input type="submit" value="Enviar"></p>
-
-	19.10- Campo de Limpar: <p><input type="reset" value="(nome do campo)"></p>
-				  EX: <p><input type="reset" value="Limpar"></p>
-
-	19.11- Checkbox (Seleção de varias caixas): <p><input type="checkbox" name="(nome do campo)" id="(nome do campo)"><label for="(nome no id)">(nome do campo)</label> checked(ja deixar a caixa marcada)></p>
+	19.9- Checkbox (Seleção de varias caixas): <p><input type="checkbox" name="(nome do campo)" id="(nome do campo)"><label for="(nome no id)">(nome do campo)</label> checked(ja deixar a caixa marcada)></p>
 				EX: <p><input type="checkbox" name="Basq" id="IBasq"><label for="IBasq">Basquete</label><br>
             			 <input type="checkbox" name="Fut" id="IFut"><label for="IFut">Futebol</label></p>
 
-	19.12- Radio (Apenas 1 caixa Marcada): <p><input type="radio" name="(nome do campo)" id="(nome do campo)"><label for="(nome no id)">(nome do campo)</label> checked(ja deixar a caixa marcada)></p>
+	19.10- Radio (Apenas 1 caixa Marcada): <p><input type="radio" name="(nome do campo)" id="(nome do campo)"><label for="(nome no id)">(nome do campo)</label> checked(ja deixar a caixa marcada)></p>
 				EX: <p><input type="radio" name="sexo" id="IMasc"><label for="IMasc">Masculino</label><br>
             			 <input type="radio" name="sexo" id="IFem"><label for="IFem">Feminino</label></p>
 
-	19.13- 
+	19.11- Caixinha de Cor: <p><label for="(nome no id)">(nome do campo:) </label><input type="color" name="(nome do campo)" id="(nome do campo)" value="(cor padrao)"></p>
+				  EX: <p><label for="ICor">Cor: </label><input type="color" name="cor" id="ICor" value="#00ff00"></p>
+
+	19.12- Barra deslizante: <p><label for="(nome no id)">(nome do campo:) </label><input type="range" name="(nome do campo)" id="(nome do campo)" min="(começo da barra)" max="(fim da barra)" value="(valor padrao da barra)"></p>
+				   EX: <p><label for="INivel">Nível de Satisfação: </label><input type="range" name="nivel" id="INivel" min="1" max="5" value="2"></p>
+
+	19.13- Upload de Foto: <p><label for="(nome no id)">(nome do campo:) </label><input type="file" name="(nome do campo)" id="(nome do campo)"></p>
+				 EX: <p><label for="IFoto">Foto de perfil: </label><input type="file" name="foto" id="IFoto"></p>
+
+	19.14- Select (selecionar 1 item da lista): <p><label for="(nome no id)">(nome do campo:) </label>
+									<select required name="(nome do campo)" id="(nome do campo)">
+										<optgroup label="(nome do grupo)"> [OPCIONAL]
+											<option value="(identificação)">(nome na lista)</option> [</optgroup>] </select> </p>
+		EX: <p><label for="IEst">Estado: </label>
+            	<select required name="estado" id="IEst">
+                		<option value="" selected disabled>--- Escolha ---</option>
+					<optgroup label="Região Sudeste">
+                    			<option value="ES">Espírito Santo</option>
+                    			<option value="MG">Minas Gerais</option>
+                    			<option value="RJ">Rio de Janeiro</option>
+                    			<option value="SP">São Paulo</option>
+ 					</optgroup>
+            	</select></p>
+	
+	19.15- DataList (seleciona 1 item da lista [podendo digitar]): <p><label for="(nome no id)">(nome do campo:) </label><input type="text" name="(nome do campo)" id="(nome do campo)" list="(nome da lista)">
+												<datalist id="(nome da lista)">
+													<option>(nome na list)</option> </datalist> </p>
+		EX: <p><label for="IProf">Profissão: </label><input type="text" name="prof" id="IProf" list="lstprof">
+            	<datalist id="lstprof">
+                		<option>Administrador</option>
+                		<option>Contabilista</option>
+                		<option>Desenvolvedor</option>
+                		<option>Professor</option>
+            	</datalist></p>
+
+	19.16- TextArea (caixa de mensagem): <p><label for="(nome no id)">(nome do campo:) </label>
+								<textarea name="(nome do campo)" id="(nome do campo)" cols="(qntd de colunas)" rows="(qntd de linhas)" placeholder="(texto cinza de exemplo no campo)"></textarea></p>
+		EX: <p><label for="IMsg">Mensagem: </label><br>
+            <textarea style="resize: none" name="msg" id="IMsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea></p>
+	
+	19.17-
+
+	19.18- Campo de Enviar: <p><input type="submit" value="(nome do campo)"></p>
+				 EX: <p><input type="submit" value="Enviar"></p>
+
+	19.19- Campo de Limpar: <p><input type="reset" value="(nome do campo)"></p>
+				  EX: <p><input type="reset" value="Limpar"></p> 
