@@ -251,11 +251,12 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 								<textarea name="(nome do campo)" id="(nome do campo)" cols="(qntd de colunas)" rows="(qntd de linhas)" placeholder="(texto cinza de exemplo no campo)"></textarea></p>
 		EX: <p><label for="IMsg">Mensagem: </label><br>
             <textarea style="resize: none" name="msg" id="IMsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea></p>
-	
-	19.17-
 
-	19.18- Campo de Enviar: <p><input type="submit" value="(nome do campo)"></p>
+	19.17- Campo de Enviar: <p><input type="submit" value="(nome do campo)"></p>
 				 EX: <p><input type="submit" value="Enviar"></p>
 
-	19.19- Campo de Limpar: <p><input type="reset" value="(nome do campo)"></p>
-				  EX: <p><input type="reset" value="Limpar"></p> 
+	19.18- Campo de Limpar: <p><input type="reset" value="(nome do campo)"></p>
+				  EX: <p><input type="reset" value="Limpar"></p>
+
+
+20- Media Query: 
