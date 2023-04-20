@@ -259,4 +259,8 @@ CURSO EM VIDEO --- HTML5 (ATUALIZADO) ---
 				  EX: <p><input type="reset" value="Limpar"></p>
 
 
-20- Media Query: 
+20- Media Query: Adaptar a diferentes telas.
+	20.1- Impressoras: Usar <link rel="stylesheet" href="(local do arquivo css)" media="print">
+	20.2- Telas em geral: Usar <link rel="stylesheet" href="(local do arquivo css)" media="screen">
+	20.3- Tela em Paisagem: Usar <link rel="stylesheet" href="(local do arquivo css)" media="screen and (orientation: landscape)">
+	20.4- Tela em Retrato: Usar <link rel="stylesheet" href="(local do arquivo css)" media="screen and (orientation: portrait)">
